@@ -28,7 +28,7 @@ let g:airline#themes#hogan#palette = {}
 " to the dictionary.  The array is in the format:
 " [ guifg, guibg, ctermfg, ctermbg, opts ]. See "help attr-list" for valid
 " values for the "opt" value.
-let s:N1   = [ '#00005f' , '#dfff00' , 232 , 207 ]
+let s:N1   = [ '#00005f' , '#dfff00' , 232 , 226 ]
 let s:N2   = [ '#ffffff' , '#444444' , 232 , 46 ]
 let s:N3   = [ '#9cffd3' , '#202020' , 232 , 242 ]
 let g:airline#themes#hogan#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -43,7 +43,7 @@ let g:airline#themes#hogan#palette.normal_modified = {
 
 let s:I1 = [ '#00005f' , '#00dfff' , 17 , 21 ]
 let s:I2 = [ '#ffffff' , '#005fff' , 232 , 46 ]
-let s:I3 = [ '#ffffff' , '#000080' , 232 , 226 ]
+let s:I3 = [ '#ffffff' , '#000080' , 232 , 207 ]
 let g:airline#themes#hogan#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#hogan#palette.insert_modified = {
       \ 'airline_c': [ '#ffffff' , '#5f005f' , 232 , 196 , '' ] ,
